@@ -1,0 +1,32 @@
+{
+  "name": "review-management-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  },
+  "devDepenlldencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-spec-reporter": "0.0.26"
+  },
+  "devDependencies": {
+    "angular": "^1.6.0",
+    "angular-mocks": "^1.6.0",
+    "jasmine-core": "^2.5.2",
+    "jasmine-reporters": "^2.2.0",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2"
+  }
+}

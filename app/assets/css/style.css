@@ -1,0 +1,35 @@
+
+.review-mng-controller {
+  border: 1px solid #fcc;
+  padding: 5px;
+  margin: 3px;
+}
+
+.header-centered { 
+	margin: auto; 
+	max-width: 550px;
+}
+
+.header { 
+	margin-top: 30px;
+}
+
+.review-sort { 
+	margin-top:30px; 
+}
+
+.review-sort-filter {
+	margin: 20px auto;
+}
+
+.review-write-and-submit {
+	margin-top: 40px;
+}
+
+.review-write-textarea {
+	resize: none;
+}
+
+.review-pagination {
+	margin-top: -20px;
+}

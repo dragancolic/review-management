@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="reviewManagementApp">
+  <head>
+    <link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="bootstrap@3.1.1" data-semver="3.1.1" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/3rdParty/angular/1.6.0/angular.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/3rdParty/dirPagination/dirPagination.js"></script>
+    <script src="assets/js/models/ReviewModel.js"></script>
+    <script src="assets/js/services/ReviewStorageService.js"></script>
+    <script src="assets/js/services/ReviewManagementService.js"></script>
+    <script src="assets/js/controllers/ReviewManagementController.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div ng-controller="ReviewManagementController" 
+               class="review-mng-controller"> 
+            <div ng-include src="'pages/partials/header.html'"></div>
+            <div ng-include src="'pages/partials/review/writeAndSubmit.html'"></div>    
+            <div ng-include src="'pages/partials/review/sortFilter.html'"></div>  
+            <div ng-include src="'pages/partials/review/submittedReviews.html'"></div>
+            <div ng-include src="'pages/partials/pagination.html'"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

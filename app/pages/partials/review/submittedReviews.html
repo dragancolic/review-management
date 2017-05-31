@@ -1,0 +1,22 @@
+
+<div class="panel panel-default">
+  <div class="panel-body">
+     <table class="table">
+        <thead>
+          <tr>
+            <th class="col-xs-1">#</th>
+            <th class="col-xs-2">Text</th>
+            <th class="col-xs-3">Date Created</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr dir-paginate="review in model.reviews | orderBy : model.selectedSortReviewFilter.id | itemsPerPage: model.pageSize" 
+              current-page="model.currentPage">
+            <td>{{review.id}}</td>
+            <td>{{review.text}}</td>
+            <td>{{review.dateCreated | date : 'yyyy-MM-dd h:mm:ss a'}}</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+
+<div class="review-sort">
+  <div class="row">
+    <div class="col-xs-5">
+       <h2>Submitted Reviews</h2>
+    </div>
+    <div class="col-xs-3 review-sort-filter">
+      <select ng-model="model.selectedSortReviewFilter" 
+              ng-options="o.name for o in model.sortReviewFilters"
+              class="form-control">
+        <option value="" 
+                disabled selected>
+          Sort By
+        </option>
+      </select>
+    </div>
+  </div>
