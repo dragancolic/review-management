@@ -1,6 +1,6 @@
 # review-management
 
-This a simple AngularJS Review Management Application which allows you to write review, paginate them and sort them.
+This a simple AngularJS Review Management Application which allows you to write, paginate and sort reviews.
 
 The project contains:
 - Services, Controller, and Model 
